@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Online Kartvizit</title>
+</head>
+<body>
+    
+    <header>
+        <div class="photo"></div>
+        <div class="about">
+            <h1>A. Mukhtarli</h1>
+            <p>Programming and design.</p>
+            <p>Web dev. Contact with me!</p>
+        </div>
+    </header>
+
+    <section class="bodySection">
+        <div class="social-link" onclick="copyToClipboard('Instagram: @a_mukhtarli')">
+            <a href="https://www.instagram.com/a_mukhtarli?igsh=MWRjOXZ5OWNjbDI4bw%3D%3D&utm_source=qr">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+        </div>
+        <div class="social-link" onclick="copyToClipboard('+994508335557')">
+            <a href="http://wa.me/994508335557">
+                <img src="whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+        <div class="social-link" onclick="copyToClipboard('Telegram kullanıcı adın')">
+            <a href="#">
+                <img src="telegram.png" alt="Telegram">
+            </a>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Alik Mukhtarli. Tüm hakları saklıdır.</p>
+            <p><a href="#">Privacy policy</a> | <a href="#">FAQ</a></p>
+            <div class="qr-code">
+                <!-- <img src="qr-code.png" alt="QR Kodu ile beni ekle"> -->
+            </div>
+        </div>
+    </footer>
+
+    <div id="copyMessage" class="copyMessage"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
