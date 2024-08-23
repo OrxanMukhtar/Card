@@ -83,16 +83,17 @@ header {
 .contact-form {
     width: 100%;
     max-width: 500px;
-    background-color: white;
+    // background-color: white;
+    // border: 3px solid #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
 .contact-form h2 {
     margin-bottom: 20px;
-    color: #314755;
+    color: #fff;
 }
 
 .contact-form input,
@@ -147,4 +148,20 @@ footer {
 
 .footer-content .qr-code img {
     width: 100px;
+}
+
+
+.socialIcons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    div,a {
+        width: 150px;
+    }
+     
+    img {
+        width: 100%;
+    }
 }
