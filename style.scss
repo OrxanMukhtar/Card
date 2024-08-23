@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -28,12 +29,14 @@ header {
 .photo {
     width: 200px;
     height: 200px;
-    background-image: url(icon.png);
-    background-position: center;
+    background-image: url(me2.jpeg);
+    background-position: top;
     background-size: cover;
     border-radius: 50%;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+
+    border: 3px solid #fff;
 }
 
 .about {
