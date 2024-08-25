@@ -150,7 +150,8 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.socialIcons div, .socialIcons a {
+.socialIcons div,
+.socialIcons a {
   width: 150px;
 }
 .socialIcons img {
